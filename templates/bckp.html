@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>html form</title>
+  <link rel="stylesheet" type="text/css" href="{{url_for('static',filename='styles/styles.css')}}">
+</head>
+<body>
+<form action="/insert" method="post">
+<div class="wrapper">
+  <div class="contact-form">
+    <div class="input-fields">
+      <input type="text" class="input" placeholder="Accident_Index" id="1" name="Accident_Index">
+      <input type="text" class="input" placeholder="Location_Easting_OSGR" id="2" name="Location_Easting_OSGR">
+      <input type="text" class="input" placeholder="Location_Northing_OSGR" id="3" name="Location_Northing_OSGR">
+      <input type="text" class="input" placeholder="Longitude" id="4" name="Longitude">
+      <input type="text" class="input" placeholder="Latitude" id="5" name="Latitude">
+      <input type="text" class="input" placeholder="Police_Force" id="6" name="Police_Force">
+      <input type="text" class="input" placeholder="Accident_Severity" id="7" name="Accident_Severity">
+      <input type="text" class="input" placeholder="Number_of_Vehicles" id="8" name="Number_of_Vehicles">
+      <input type="text" class="input" placeholder="Number_of_Casualties" id="9" name="Number_of_Casualties">
+      <input type="text" class="input" placeholder="Date" id="10" name="Date">
+      <input type="text" class="input" placeholder="Day_of_Week" id="11" name="Day_of_Week">
+      <input type="text" class="input" placeholder="Time" id="12" name="Time">
+      <input type="text" class="input" placeholder="Local_Authority_(District)" id="13" name="Local_Authority_(District)">
+      <input type="text" class="input" placeholder="Local_Authority_(Highway)" id="14" name="Local_Authority_(Highway)">
+      <input type="text" class="input" placeholder="1st_Road_Class" id="15" name="1st_Road_Class">
+      <input type="text" class="input" placeholder="1st_Road_Number" id="16" name="1st_Road_Number">
+      <input type="text" class="input" placeholder="Road_Type" id="17" name="Road_Type">
+      <input type="text" class="input" placeholder="Speed_limit" id="18" name="Speed_limit">
+      <input type="text" class="input" placeholder="Junction_Detail" id="19" name="Junction_Detail">
+      <input type="text" class="input" placeholder="Junction_Control" id="20" name="Junction_Control">
+      <input type="text" class="input" placeholder="2nd_Road_Class" id="21" name="2nd_Road_Class">
+      <input type="text" class="input" placeholder="2nd_Road_Number" id="22" name="2nd_Road_Number">
+      <input type="text" class="input" placeholder="Pedestrian_Crossing-Human_Control" id="23" name="Pedestrian_Crossing-Human_Control">
+      <input type="text" class="input" placeholder="Pedestrian_Crossing-Physical_Facilities" id="24" name="Pedestrian_Crossing-Physical_Facilities">
+      <input type="text" class="input" placeholder="Light_Conditions" id="25" name="Light_Conditions">
+      <input type="text" class="input" placeholder="Weather_Conditions" id="26" name="Weather_Conditions">
+      <input type="text" class="input" placeholder="Road_Surface_Conditions" id="27" name="Road_Surface_Conditions">
+      <input type="text" class="input" placeholder="Special_Conditions_at_Site" id="28" name="Special_Conditions_at_Site">
+      <input type="text" class="input" placeholder="Carriageway_Hazards" id="29" name="Carriageway_Hazards">
+      <input type="text" class="input" placeholder="Urban_or_Rural_Area" id="30" name="Urban_or_Rural_Area">
+      <input type="text" class="input" placeholder="Did_Police_Officer_Attend_Scene_of_Accident" id="31" name="Did_Police_Officer_Attend_Scene_of_Accident">
+      <input type="text" class="input" placeholder="LSOA_of_Accident_Location" id="32" name="LSOA_of_Accident_Location">
+      <input type="text" class="input" placeholder="Year" id="33" name="Year">
+      <input type = "submit" value = "Send" id="submit">
+      <br>
+
+    </div>
+
+  </div>
+  <div class="btn" onclick="javascript:this.parentNode.parentNode.submit();">
+Send
+  </div>
+</div>
+</form>
+
+</body>
+</html>
